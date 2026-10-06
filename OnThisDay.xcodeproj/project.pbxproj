@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A419DD33074CBD400B4C5A2 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A419DD23074CBD400B4C5A2 /* Quake.swift */; };
 		0A44071130739B01005A8708 /* OnThisDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44071030739B01005A8708 /* OnThisDayApp.swift */; };
 		0A44071330739B01005A8708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44071230739B01005A8708 /* ContentView.swift */; };
 		0A44071530739B0A005A8708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A44071430739B0A005A8708 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A419DD23074CBD400B4C5A2 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		0A44070D30739B01005A8708 /* OnThisDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnThisDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A44071030739B01005A8708 /* OnThisDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnThisDayApp.swift; sourceTree = "<group>"; };
 		0A44071230739B01005A8708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A419DD13074CBAC00B4C5A2 /* Earthquake */ = {
+			isa = PBXGroup;
+			children = (
+				0A419DD23074CBD400B4C5A2 /* Quake.swift */,
+			);
+			path = Earthquake;
+			sourceTree = "<group>";
+		};
 		0A44070430739B00005A8708 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		0A44070F30739B01005A8708 /* OnThisDay */ = {
 			isa = PBXGroup;
 			children = (
+				0A419DD13074CBAC00B4C5A2 /* Earthquake */,
 				0A44071030739B01005A8708 /* OnThisDayApp.swift */,
 				0A44071230739B01005A8708 /* ContentView.swift */,
 				0A44071430739B0A005A8708 /* Assets.xcassets */,
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A44071330739B01005A8708 /* ContentView.swift in Sources */,
+				0A419DD33074CBD400B4C5A2 /* Quake.swift in Sources */,
 				0A44071130739B01005A8708 /* OnThisDayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
